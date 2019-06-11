@@ -1,0 +1,3 @@
+/Users/polina/Desktop/Practice/LAB_6/LAB_6/CMakeFiles/LAB_6.dir
+/Users/polina/Desktop/Practice/LAB_6/LAB_6/CMakeFiles/ALL_BUILD.dir
+/Users/polina/Desktop/Practice/LAB_6/LAB_6/CMakeFiles/ZERO_CHECK.dir
