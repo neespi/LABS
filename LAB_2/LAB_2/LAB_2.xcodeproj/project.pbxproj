@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		29211572E4BA460FAF4D92B6 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 76C618E613284B0CBE3459E1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				46B5403B9C504A189594F8B9 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		B6843D291B5547529745D24F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 348A8E70A674419AA9A8DDE8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				00E50D8816E64EC6A221873A /* CMake Rules */,
+			);
+			dependencies = (
+				38082DC59E1E4B2F99A77600 /* PBXTargetDependency */,
+				12468644FEEB47249526F564 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3FD6E1B8422A47BC98EB9D6D /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/task1_2.c */ = {isa = PBXBuildFile; fileRef = D18C5AC1C3294DDC83AF5EB1 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/task1_2.c */; };
+		418A7D8C9F3A44EBB135F868 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/task2_2.c */ = {isa = PBXBuildFile; fileRef = 661DFD2289F244119A6E8F98 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/task2_2.c */; };
+		8F12C1C8BA3E497BA0EA4114 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 654724E9F44846D3BE7EBEEF /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/CMakeLists.txt */; };
+		BF2F36D96F854DC4A76ED917 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/main_2.c */ = {isa = PBXBuildFile; fileRef = 27D9718FA83E4642AB48C277 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/main_2.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		331CD0E4AD804D03BED73E50 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		77D10B25941542F7A3ECADF6 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8967B9D592F643C0B4936EC0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8D4018A5227C46D0B2BE9556 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		728CBAEBACF5402CA17C3629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D22AE68915A5460786B466E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29211572E4BA460FAF4D92B6;
+			remoteInfo = ZERO_CHECK;
+		};
+		74AE08B54759447080304444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D22AE68915A5460786B466E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29211572E4BA460FAF4D92B6;
+			remoteInfo = ZERO_CHECK;
+		};
+		A099346460574A729B864925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D22AE68915A5460786B466E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B6686EAFF045959FB6EBF9;
+			remoteInfo = LAB_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27D9718FA83E4642AB48C277 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/main_2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = main_2.c; path = main_2.c; sourceTree = SOURCE_ROOT; };
+		654724E9F44846D3BE7EBEEF /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		661DFD2289F244119A6E8F98 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/task2_2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = task2_2.c; path = task2_2.c; sourceTree = SOURCE_ROOT; };
+		9930CAD5533042ED94DD7EAA /* LAB_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = LAB_2; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18C5AC1C3294DDC83AF5EB1 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/task1_2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = task1_2.c; path = task1_2.c; sourceTree = SOURCE_ROOT; };
+		D219BC3F57604F9D97A23159 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		33A86657E3694244B35549F1 /* LAB_2 */ = {
+			isa = PBXGroup;
+			children = (
+				4043B21817E841CC8A54874B /* Source Files */,
+				654724E9F44846D3BE7EBEEF /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/CMakeLists.txt */,
+			);
+			name = LAB_2;
+			sourceTree = "<group>";
+		};
+		4043B21817E841CC8A54874B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				27D9718FA83E4642AB48C277 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/main_2.c */,
+				D18C5AC1C3294DDC83AF5EB1 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/task1_2.c */,
+				661DFD2289F244119A6E8F98 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/task2_2.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6F58DB4C073D44B98E8172D3 = {
+			isa = PBXGroup;
+			children = (
+				33A86657E3694244B35549F1 /* LAB_2 */,
+				EB2CFD090D854C1B9A4F434D /* ALL_BUILD */,
+				7DC7B8E121AF4AB897F922A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DC7B8E121AF4AB897F922A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9930CAD5533042ED94DD7EAA /* LAB_2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C5A0113D174FB796AD9335 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EB2CFD090D854C1B9A4F434D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A1C5A0113D174FB796AD9335 /* CMake Rules */,
+				D219BC3F57604F9D97A23159 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B6686EAFF045959FB6EBF9 /* LAB_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C117DF6C273A4131B9C3C075 /* Build configuration list for PBXNativeTarget "LAB_2" */;
+			buildPhases = (
+				F1FDACC86B9C488E911B4A7D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25F7C974E8544618C09C278 /* PBXTargetDependency */,
+			);
+			name = LAB_2;
+			productName = LAB_2;
+			productReference = 9930CAD5533042ED94DD7EAA /* LAB_2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22AE68915A5460786B466E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 6D06033F3E444A67A4278A8B /* Build configuration list for PBXProject "LAB_2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8967B9D592F643C0B4936EC0 /* Debug */,
+				331CD0E4AD804D03BED73E50 /* Release */,
+				77D10B25941542F7A3ECADF6 /* MinSizeRel */,
+				8D4018A5227C46D0B2BE9556 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 6F58DB4C073D44B98E8172D3;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				B6843D291B5547529745D24F /* ALL_BUILD */,
+				C9B6686EAFF045959FB6EBF9 /* LAB_2 */,
+				29211572E4BA460FAF4D92B6 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E50D8816E64EC6A221873A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/polina/Desktop/Practice/LAB_2/LAB_2 -f /Users/polina/Desktop/Practice/LAB_2/LAB_2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		28A0A978CB984834A2542721 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		41EC9569460C4AE1957D2DDD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		46B5403B9C504A189594F8B9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/polina/Desktop/Practice/LAB_2/LAB_2 -f /Users/polina/Desktop/Practice/LAB_2/LAB_2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FDACC86B9C488E911B4A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2F36D96F854DC4A76ED917 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/main_2.c */,
+				3FD6E1B8422A47BC98EB9D6D /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/task1_2.c */,
+				418A7D8C9F3A44EBB135F868 /* /Users/polina/Desktop/Practice/LAB_2/LAB_2/task2_2.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12468644FEEB47249526F564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29211572E4BA460FAF4D92B6 /* ZERO_CHECK */;
+			targetProxy = 74AE08B54759447080304444 /* PBXContainerItemProxy */;
+		};
+		38082DC59E1E4B2F99A77600 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B6686EAFF045959FB6EBF9 /* LAB_2 */;
+			targetProxy = A099346460574A729B864925 /* PBXContainerItemProxy */;
+		};
+		D25F7C974E8544618C09C278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29211572E4BA460FAF4D92B6 /* ZERO_CHECK */;
+			targetProxy = 728CBAEBACF5402CA17C3629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02A1B52B23E646FEA26CC0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2/build;
+			};
+			name = Debug;
+		};
+		2FEFEC1DEF1A457C947C54B2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2/build;
+			};
+			name = MinSizeRel;
+		};
+		4BEB1BEFBE2544529860F50F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6A8A8D7802344D51A29FBEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LAB_2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		76B39D9D83C246789BF340AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LAB_2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		91E6E1F368434E138CB266EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2/build;
+			};
+			name = Release;
+		};
+		9B891B9AB01041DF8C26A7A9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LAB_2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9D838D4A246B44FAA0797C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9FCC32FC7F0F49D389EE1B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A6DECFEF36F8426BBAF205B6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BADB9ECF5E9C4D648E4BAB05 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2/build;
+			};
+			name = RelWithDebInfo;
+		};
+		BE14BB1C1D294D048475DD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C9ADBE11FE51419E8E3BCE72 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DB32FBF4E4D34A3FB9D128E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E5FD9909705942428FD5943B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F4BECB674BB6402AA76C685D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LAB_2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/polina/Desktop/Practice/LAB_2/LAB_2;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		348A8E70A674419AA9A8DDE8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D838D4A246B44FAA0797C4C /* Debug */,
+				9FCC32FC7F0F49D389EE1B35 /* Release */,
+				C9ADBE11FE51419E8E3BCE72 /* MinSizeRel */,
+				4BEB1BEFBE2544529860F50F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D06033F3E444A67A4278A8B /* Build configuration list for PBXProject "LAB_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A1B52B23E646FEA26CC0D9 /* Debug */,
+				91E6E1F368434E138CB266EF /* Release */,
+				2FEFEC1DEF1A457C947C54B2 /* MinSizeRel */,
+				BADB9ECF5E9C4D648E4BAB05 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		76C618E613284B0CBE3459E1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB32FBF4E4D34A3FB9D128E8 /* Debug */,
+				BE14BB1C1D294D048475DD98 /* Release */,
+				A6DECFEF36F8426BBAF205B6 /* MinSizeRel */,
+				E5FD9909705942428FD5943B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C117DF6C273A4131B9C3C075 /* Build configuration list for PBXNativeTarget "LAB_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B39D9D83C246789BF340AE /* Debug */,
+				6A8A8D7802344D51A29FBEBC /* Release */,
+				F4BECB674BB6402AA76C685D /* MinSizeRel */,
+				9B891B9AB01041DF8C26A7A9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D22AE68915A5460786B466E9 /* Project object */;
+}
