@@ -20,4 +20,3 @@ void main() {
 void f(void) {
     output = (((4-pow(x,2))/2));
 }
-#endif
