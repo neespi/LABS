@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#ifdef LAB_4
+
 void function(double *x, double *y, double *result)
 {
     *result = (4-pow(*x,2))/2;
@@ -95,4 +95,4 @@ int main()
         
     }
 }
-#endif
+
