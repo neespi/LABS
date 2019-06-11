@@ -5,6 +5,6 @@
 double x, result;
 
 void f() {
-	output = ((4-pow(x,2))/2);
+	result = ((4-pow(x,2))/2);
 }
 
