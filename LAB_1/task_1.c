@@ -14,4 +14,3 @@ int main() {
     printf("f(x)=%lf\n", ((4-pow(x,2))/2));
     
 }
-#endif
