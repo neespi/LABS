@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 void main() {
+	double x;
 	x = 1.0;
 	printf("x=%lf\n", x);
 	f();
