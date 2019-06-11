@@ -1,8 +1,13 @@
-
 #include <stdio.h>
 #include <math.h>
 
 double x, result;
+
+void f(void) {
+    double output;
+    output = (((4-pow(x,2))/2));
+    return output;
+}
 
 void main() {
     
@@ -17,8 +22,3 @@ void main() {
     
 }
 
-void f(void) {
-    double output;
-    output = (((4-pow(x,2))/2));
-    return output;
-}
