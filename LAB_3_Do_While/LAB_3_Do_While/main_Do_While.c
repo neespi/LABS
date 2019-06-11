@@ -2,7 +2,7 @@
 #include <math.h>
 #include <locale.h>
 #include "header_do_while.h"
-#ifdef LAB_3_DW
+
 int main()
 {
     double r;
@@ -55,4 +55,4 @@ int main()
             break;
     }
 }
-#endif
+
