@@ -12,4 +12,3 @@ void main() {
 	printf("x=%lf\n", x);
 	printf("f(x)=%lf\n", f(x));
 }
-#endif
