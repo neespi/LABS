@@ -1,0 +1,3 @@
+/Users/polina/Desktop/Practice/LAB_3_Do_While/LAB_3_Do_While/CMakeFiles/LAB_3_Do_While.dir
+/Users/polina/Desktop/Practice/LAB_3_Do_While/LAB_3_Do_While/CMakeFiles/ALL_BUILD.dir
+/Users/polina/Desktop/Practice/LAB_3_Do_While/LAB_3_Do_While/CMakeFiles/ZERO_CHECK.dir
