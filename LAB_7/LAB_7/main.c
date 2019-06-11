@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "AuxiliaryFunc.h"
-#ifdef LAB_7
+
 void incrementHeapVariable() {
     int* p = (int*)malloc(sizeof(int));
     *p = 10;
@@ -117,4 +117,4 @@ int main()
     getchar();
     printf("\n\n");
 }
-#endif
+
