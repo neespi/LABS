@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 #include <math.h>
+#include "task_7_f.h"
 
 void main() {
 	x = 1.0;
