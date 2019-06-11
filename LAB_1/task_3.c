@@ -16,4 +16,3 @@ double f(double x) {
     output = (((4-pow(x,2))/2));
     return output;
 }
-#endif
